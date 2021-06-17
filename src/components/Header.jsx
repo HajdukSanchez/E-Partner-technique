@@ -14,7 +14,7 @@ const Header = () => {
           <img src='https://impormedical.com.co/images/assests/IM/Logo_Impormedical_Horizontal.png' alt='Impormedical Icon' />
         </div>
         <div className='Header__input-container'>
-          <input type='text' className='Header__input-text' placeholder='¿Qué estás buscando? Escríbelo aquí' />
+          <input type='text' className='input input--header' placeholder='¿Qué estás buscando? Escríbelo aquí...' />
           <div className='Header__input-button'>
             <FontAwesomeIcon icon={faSearch} />
           </div>
