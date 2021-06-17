@@ -1,0 +1,53 @@
+$transition-time: 0.5s;
+$border-radius: 1rem;
+
+.Product {
+  margin: 3rem;
+  width: 15%;
+  background-color: transparent;
+
+  &:hover {
+    .Product__action {
+      height: auto;
+      opacity: 1;
+    }
+
+    .Product__description {
+      background-color: white;
+    }
+
+    .Product-container {
+      border-color: gray;
+    }
+  }
+
+  &-container {
+    margin-bottom: 3rem;
+    width: 100%;
+    border-radius: $border-radius;
+    border: 0.01rem solid transparent;
+    transition: border $transition-time;
+  }
+
+  &__image {
+    padding: 2rem;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+
+  &__description {
+    padding: 1.5rem 2rem;
+    background-color: #f4f4f4;
+    transition: all $transition-time;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+
+  &__action {
+    height: none;
+    transition: all $transition-time;
+    opacity: 0;
+  }
+}

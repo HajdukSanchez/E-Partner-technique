@@ -44,7 +44,7 @@ const Footer = () => {
       <div className='Footer--bottom'>
         <ul className='Footer__list'>
           <li className='Footer__item'>
-            <h5>Desarrolado por</h5>
+            <h5>Desarrollado por</h5>
           </li>
           <li className='Footer__item'>
             <div className='Footer__item--image'>
