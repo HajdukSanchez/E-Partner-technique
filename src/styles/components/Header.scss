@@ -1,12 +1,13 @@
 $input-color: black;
+$link-color: #14468d;
 
 .Header {
-  padding: 1rem 35rem;
+  padding: 1rem 30rem;
 
   &__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -24,6 +25,11 @@ $input-color: black;
 
     &--bottom {
       font-size: 2rem;
+      color: $link-color;
+
+      a {
+        color: $link-color;
+      }
     }
   }
 
@@ -60,6 +66,10 @@ $input-color: black;
     &-item {
       padding: 1rem 2rem;
 
+      a {
+        color: $link-color;
+      }
+
       &--flex {
         display: flex;
         flex-direction: row;
@@ -71,6 +81,7 @@ $input-color: black;
 
           svg {
             font-size: 2rem;
+            color: $link-color;
           }
         }
       }

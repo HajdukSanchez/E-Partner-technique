@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // Styles
-import '../styles/containers/App.scss';
+import '../styles/App.scss';
 
 // Containers
 import Home from '../containers/Home';
